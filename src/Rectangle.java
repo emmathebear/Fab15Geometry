@@ -1,12 +1,10 @@
-public class Rectangle extends Shape{
-private int length,heigth;
-
+public class Rectangle extends Shape {
+    
     public Rectangle(int length, int heigth) {
-        this.length = length;
-        this.heigth = heigth;
+        super(length, heigth);
     }
 
-    public int calculateArea(){
+    public int calculateArea() {
         return length * heigth;
     }
 }

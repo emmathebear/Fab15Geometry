@@ -1,5 +1,10 @@
 public class Shape {
+    protected int length, heigth;
 
+    public Shape(int length, int heigth) {
+        this.length = length;
+        this.heigth = heigth;
+    }
 
     public int calculateArea() {
         return 0;
@@ -7,6 +12,9 @@ public class Shape {
 
     @Override
     public String toString() {
-        return "Area is " + calculateArea() ;
+        return
+                "length=" + length +
+                ", heigth=" + heigth +
+                ", area=" + calculateArea();
     }
 }
