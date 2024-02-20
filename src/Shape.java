@@ -1,10 +1,12 @@
 public class Shape {
-    int heigth = 0;
-    int length = 0;
 
 
+    public int calculateArea() {
+        return 0;
+    }
 
-public void calculateArea(){
-    System.out.println("Cannot calculate area of a generic shape");
-}
+    @Override
+    public String toString() {
+        return "Area is " + calculateArea() ;
+    }
 }
